@@ -144,8 +144,20 @@ form textarea {
 }
 
 #faleConosco form input:hover, #faleConosco form textarea:hover {
-    border: 2px solid #ecf0f1
+    border: 2px solid #ecf0f1;
 }
+
+
+#faleConosco input {
+    border: 2px solid white;
+    border-bottom: 2px solid #ecf0f1;
+    outline: none;
+}
+
+#faleConosco textarea {
+    border: 2px solid white;
+}
+
 
 input:focus, textarea:focus {
     outline-color: #182c61;
@@ -155,13 +167,6 @@ footer {
     background-color: #182c61;
     color: #ecf0f1;
     padding: 16px;
-}
-
-.brands ul,
-#links-social ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
 }
 
 #about-us p::first-letter {
